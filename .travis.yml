@@ -25,7 +25,6 @@ env:
   global:
     - PATH="${PATH}:$HOME/bin"
     - SLIPWAY_VERSION=0.2.17
-    - secure: "R+kEGCclEe9W9VbtGK4wFyDNz8x4bBcbzClyGTS4tHuthjb1cBifpL1gJYuNd6mQh2IvbsFgBvn1HKuhR73TrUZItwIRu9WEWeDMiZfXWYdyA0znc4trGn3Rya8mCp+V0EBnqNnHygyFuqjacUV1FOo5XxzPyQ8iPTm8t7uHqQ0clYcOq3zYNvMH7myxnNiFqeZZUgxv/JBVMcDslfq4Xk+GdCzdBmIUXeVJcSba12zRNPFr1gYAwucznVEPyUD2dmB/xm5uFA6nqeqekglclj2xyYDmSNs2qz6cYFs2cvJU7BM0HYL8132jK+g9AgplWmJ0QmVtbeoZyIjlckDnPop4aczscMuHErU+Btw6a4EKZdgYq/nL1erl1eQDmQ/AO1nqZFkyRIbcdQdTdGKN6xarZeaISYBAZ5kRO8pTtFbXKZTT91Dd3D+bHsKzr9Zvfmc6avex+tmg1wUJIKp6aJYS2iiTqqJt+SuG5fuVJxQEqTmLAZ5a7AjR4K2uIECDM/CsSAT89A2Pj+Y2sfsnZ8Z7Pe0qryEdMseA4Lub6PmFqsVZ+N+/yfnAYLqi+yR6mvHVtxwZbV31NJZ9mubRDFo/xtyTI6x3APHXrdthCvAZnIpzbNjQ3mvP3nkpCV9CTo+H2M/8W4zEczEfL6I1eFQnY/nXx6yUTpSMuTNf7Mc="
 
 notifications:
   email:
