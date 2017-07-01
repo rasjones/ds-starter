@@ -1,2 +1,2 @@
 # datascience-starter
-Starter Python Project for DENA Datascience Team
+Starter Python Project for DENA Datascience Team.
