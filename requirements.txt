@@ -4,8 +4,8 @@
 ####
 
 # latest version with no filtering specified
-scipy
 numpy
+scipy
 pandas
 sklearn
 boto3
