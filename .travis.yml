@@ -1,10 +1,16 @@
 language: python
+dist: trusty
+sudo: false
 python:
-  - '3.6'
-  - '2.6'
-  - 'pypy-5.4.1'
-  - '2.7'
-  - '3.5'
+ - "2.6"
+ - "2.7"
+ - "3.3"
+ - "3.4"
+ - "3.5"
+ - "3.6"
+ - "3.7-dev"
+ - "pypy-5.4"
+ - "pypy3.3-5.2-alpha1"
 
 branches:
   only:
