@@ -1,6 +1,12 @@
 language: python
+dist: trusty
+
 python:
+  - "3.6"
+  - "2.6"
   - pypy-5.4.1
+  - "2.7"
+  - "3.5"
 
 branches:
   only:
