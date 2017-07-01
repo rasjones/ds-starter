@@ -16,11 +16,6 @@ branches:
   only:
     - master
 
-install:
-  - wget http://nexus.oncue.verizon.net/nexus/content/repositories/releases/verizon/inf/slipway/${SLIPWAY_VERSION}/slipway-linux-amd64-${SLIPWAY_VERSION}.tar.gz -O slipway.tar.gz
-  - tar xvf slipway.tar.gz
-  - mkdir $HOME/bin && mv slipway $HOME/bin/slipway
-
 before_script:
   - "if [ $TRAVIS_PULL_REQUEST = 'false' ]; then git checkout -qf $TRAVIS_BRANCH; fi"
   - pip install pybuilder
